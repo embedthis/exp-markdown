@@ -1,0 +1,17 @@
+{
+    "name": "exp-marked",
+    "description": "Marked Plugin for Expansive",
+    "version": "0.3.2",
+    "keywords": [
+        "expansive-plugin",
+        "marked"
+    ],
+    "licenses": "GPL",
+    "engines": {
+        "node": ">= 0.4.0"
+    },
+    "ignore": [
+        "**/doc/**",
+        "**/man/**",
+    ]
+}
