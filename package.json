@@ -1,7 +1,7 @@
 {
-    "name": "exp-marked",
-    "description": "Marked Plugin for Expansive",
-    "version": "0.3.2",
+    "name": "exp-md",
+    "description": "Markdown Plugin for Expansive",
+    "version": "0.1.0",
     "keywords": [
         "expansive-plugin",
         "marked"
