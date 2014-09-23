@@ -1,5 +1,5 @@
-{
-    control: {
+Expansive.load({
+    expansive: {
         transforms: {
             name:   'compile-markdown',
             from:   'md',
@@ -12,4 +12,4 @@
             `
         }
     }
-}
+})
