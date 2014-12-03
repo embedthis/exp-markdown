@@ -7,7 +7,7 @@ Provides the 'compile-markdown' service. See the exp-markdown plugin to install 
 
 ### To install:
 
-exp install exp-md
+exp install md
 
 ### Get Pak from
 
