@@ -1,7 +1,8 @@
 {
     "name": "exp-md",
     "description": "Markdown Plugin for Expansive",
-    "version": "0.1.0",
+    "version": "0.2.0",
+    "pak": ">=0.10",
     "keywords": [
         "expansive-plugin",
         "marked"
@@ -10,8 +11,14 @@
     "engines": {
         "node": ">= 0.4.0"
     },
+    "scripts": {
+        "postcache": {
+            "script": "Cmd.locate('marked') || run('npm install -g marked')"
+        }
+    },
     "ignore": [
         "**/doc/**",
-        "**/man/**",
-    ]
+        "**/man/**"
+    ],
+    "install": false
 }
