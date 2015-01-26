@@ -11,7 +11,7 @@ Provides the 'compile-markdown' service.
 
 ### To configure in expansive.json:
 
-* compile-markdown-html.enable -- Enable the compile-markdown-html service to process Markdown files.
+* compile-markdown-html.enable &mdash; Enable the compile-markdown-html service to process Markdown files.
 
 ```
 {
