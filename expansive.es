@@ -1,8 +1,9 @@
 Expansive.load({
     transforms: {
-        name:   'compile-markdown-html',
-        input:  'md',
-        output: 'html',
+        name: 'compile-markdown-html',
+        mappings: {
+            'md': 'html'
+        },
         script: `
             function transform(contents, meta, service) {
                 let md = Cmd.locate('marked')
