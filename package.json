@@ -24,7 +24,6 @@
         "**/man/**"
     ],
     "pak": {
-        "version": ">=0.10",
-        "install": false
+        "version": ">=0.10"
     }
 }
