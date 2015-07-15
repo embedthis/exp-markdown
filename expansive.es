@@ -2,7 +2,7 @@ Expansive.load({
     transforms: {
         name: 'compile-markdown-html',
         mappings: {
-            'md': 'html'
+            'md': [ 'esp', 'html' ]
         },
         script: `
             function transform(contents, meta, service) {
