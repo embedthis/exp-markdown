@@ -1,7 +1,7 @@
 {
     "name": "exp-md",
     "description": "Markdown Plugin for Expansive",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "keywords": [
         "expansive-plugin",
         "marked"
@@ -16,7 +16,7 @@
     },
     "scripts": {
         "postcache": {
-            "script": "Cmd.locate('marked') || run('npm install -g marked')"
+            "script": "if (!Cmd.locate('marked')) { if (!Cmd.locate('npm')) { throw 'Cannot locate the \"npm\" utility.' } else { run('npm install -g marked')}}"
         }
     },
     "ignore": [
