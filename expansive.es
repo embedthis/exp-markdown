@@ -7,7 +7,9 @@ Expansive.load({
         script: `
             function transform(contents, meta, service) {
                 let md = Cmd.locate('marked')
-                return run(md, contents)
+                let contents = run(md, contents)
+                contents = contents.replace('<!--clear-->', '<span class="clearfix"></span>')
+                return contents
             }
         `
     }
