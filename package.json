@@ -1,5 +1,5 @@
 {
-    "name": "exp-md",
+    "name": "exp-markdown",
     "description": "Markdown Plugin for Expansive",
     "version": "0.3.0",
     "keywords": [
@@ -9,13 +9,13 @@
     "licenses": "GPL",
     "repository": {
         "type": "git",
-        "url": "git://github.com/embedthis/exp-md.git"
+        "url": "git://github.com/embedthis/exp-markdown.git"
     },
     "engines": {
         "node": ">= 0.4.0"
     },
     "devDependencies": {
-        "expansive": ">=0.6.0",
+        "expansive": ">=0.7.0",
         "pak": ">=0.11.3"
     },
     "pak": {

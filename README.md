@@ -1,22 +1,22 @@
-exp-md
+exp-markdown
 ===
 
 Expansive plugin for Markdown files.
 
-Provides the 'compile-markdown' service.
+Provides the 'markdown' service.
 
 ### To install:
 
-    pak install exp-md
+    pak install exp-markdown
 
 ### To configure in expansive.json:
 
-* compile-markdown-html.enable &mdash; Enable the compile-markdown-html service to process Markdown files.
+* enable &mdash; Enable the compile-markdown-html service to process Markdown files.
 
 ```
 {
     services: {
-        'compile-markdown-html': {
+        'markdown': {
             enable: true,
         }
     }
