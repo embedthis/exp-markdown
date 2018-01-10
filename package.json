@@ -23,7 +23,8 @@
             "postcache": {
                 "script": "npm('install -g', 'marked')"
             }
-        }
+        },
+        "origin": "embedthis/exp-markdown"
     },
     "ignore": [
         "**/doc/**",
