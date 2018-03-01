@@ -5,8 +5,7 @@ Expansive.load({
 
         transforms: {
             mappings: {
-                //  MOB - power/web removed replace
-                md: [ 'esp', 'html' /* , 'replace' */]
+                md: [ 'esp', 'html', 'replace']
             },
 
             init: function(transform) {
