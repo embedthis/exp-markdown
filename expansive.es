@@ -15,7 +15,8 @@ Expansive.load({
             render: function(contents, meta, transform) {
                 if (transform.md) {
                     contents = run(transform.md, contents)
-                    contents = contents.replace('<!--clear-->', '<span class="clearfix"></span>')
+                    contents = contents.replace(/<!--clear-->/g, '<span class="clearfix"></span>')
+                    contents = contents.replace(/<!--more-->/g, '<span class="clearfix"></span>')
                 }
                 return contents
             }
